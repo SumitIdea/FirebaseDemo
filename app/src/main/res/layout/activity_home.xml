@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+    <TextView
+        android:id="@+id/tv_user"
+        android:text="Welcome User"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:id="@+id/et_name">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Occupation"
+        android:inputType="text"
+        android:id="@+id/et_occu">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:inputType="textPostalAddress"
+        android:id="@+id/et_address">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone no"
+        android:inputType="number"
+        android:id="@+id/et_contact_num">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pin Code"
+        android:inputType="number"
+        android:id="@+id/et_pincode">
+    </EditText>
+    <Button
+        android:id="@+id/btn_save"
+        android:text="Save Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/btn_read"
+        android:text="Read Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/btn_logout"
+        android:text="Log out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_pick"
+        android:text="Pick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/btn_show"
+        android:text="Show Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/btn_remove"
+        android:text="Remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>
